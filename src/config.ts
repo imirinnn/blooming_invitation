@@ -56,7 +56,7 @@ export const siteConfig = {
   },
 
   /** Authoritative destination link for “Get Directions”. */
-  mapsUrl: 'https://maps.app.goo.gl/j7HDvqBx8jBUDsRc8?g_st=ipc',
+  mapsUrl: 'https://www.google.com/maps/place/Sri+Selvi+Hall,+SRMS+Mill+St,+opp.+taluk+office,+Pollachi,+u,+Tamil+Nadu+642001/@10.6604393,77.0094482,16z/data=!4m6!3m5!1s0x3ba839d5693ba253:0xe891b53ff5892e2!8m2!3d10.6604393!4d77.0094482!16s%2Fg%2F11cmq_tph8?utm_campaign=ml-ardl&g_ep=Eg1tbF8yMDI2MTAxM18wIJvbDyoASAJQAQ%3D%3D',
 
   portrait: {
     photos: ['/images/dhanasri-1.jpg', '/images/dhanasri-2.jpg', '/images/dhanasri-3.jpg'],
