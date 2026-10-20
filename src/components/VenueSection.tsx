@@ -64,7 +64,19 @@ export function VenueSection() {
             </h2>
             <p className="venue__name">{siteConfig.event.venue}</p>
             <p className="venue__note">Tap below to open the exact location in Google Maps.</p>
-            <a className="btn" href={siteConfig.mapsUrl} target="_blank" rel="noopener noreferrer">
+            <a
+              className="btn"
+              href={siteConfig.mapsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e: { preventDefault: () => void }) => {
+                // Open Google Maps in a new tab; if the browser/preview blocks pop-ups, go there in this tab instead.
+                e.preventDefault()
+                const w = window.open(siteConfig.mapsUrl, '_blank')
+                if (w) w.opener = null
+                else window.location.href = siteConfig.mapsUrl
+              }}
+            >
               <NavigationIcon size={18} />
               Get Directions
             </a>

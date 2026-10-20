@@ -74,7 +74,7 @@ export const siteConfig = {
   credit: {
     show: true,
     text: 'Website built and designed by IK Studio',
-    url: 'https://claude.ai',
+    url: 'https://ikstudio-portfolio.onrender.com/',
   },
   music: {
     /**
