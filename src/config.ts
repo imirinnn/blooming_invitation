@@ -73,7 +73,7 @@ export const siteConfig = {
   /** Website-builder credit shown in the footer. Set `show: false` to hide it. */
   credit: {
     show: true,
-    text: 'Website designed & built by Claude, an AI assistant made by Anthropic',
+    text: 'Website built and designed by IK Studio',
     url: 'https://claude.ai',
   },
   music: {
